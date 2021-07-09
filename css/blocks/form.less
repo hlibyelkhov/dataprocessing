@@ -1,0 +1,131 @@
+// main: ../style.less
+
+.form {
+  text-align: center;
+
+  margin-bottom: 185px;
+
+  @media @tablet {
+    margin-bottom: 100px;
+
+    margin-right: -25px;
+  }
+}
+
+
+.formmain {
+  margin: 0 auto;
+  width: 940px;
+  height: 324px;
+  background: rgba(60, 62, 125, 0.19);
+  backdrop-filter: blur(134px);
+  border-radius: 5px;
+
+  @media @tablet {
+    width: 800px;
+  }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+
+  .center {
+    display: flex;
+    flex-direction: column;
+ }
+
+  h1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #F2994A;
+
+    margin-bottom: 20px;
+  }
+
+  h5 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #95A1BB;
+  }
+
+  .formmain__form {
+    margin-top: 23px;
+    margin-bottom: 16px;
+      input {
+        width: 288px;
+        height: 56px;
+
+        outline: none;
+        background: #1A1C53;
+        border: 1px solid #1A1C53;
+        border-radius: 5px;
+
+        box-shadow: none;
+
+        margin: 0;
+        padding: 0;
+
+
+        &::placeholder {
+          padding-left: 16px;
+          padding-top: 18px;
+          font-family: Inter;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 20px;
+  
+          color: #fff;
+  
+          opacity: 0.2;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        margin-left: -4px;
+        
+        button {
+          outline: none;
+          background: #F2994A;
+          border: 1px solid #F2994A;
+          border-radius: 0px 5px 5px 0px;
+
+          width: 128px;
+          height: 56px;
+
+          font-family: Rubik;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 20px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+
+          color: #FFFFFF;
+        }
+      }
+    }
+
+
+
+  p {
+    font-family: Advent Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+  
+    color: #8476AA;
+    }
+}

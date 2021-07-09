@@ -1,0 +1,149 @@
+// main: ../style.less
+
+.intro {
+  margin-bottom: 100px;
+
+  @media @tablet {
+    margin-bottom: 50px;
+  }
+}
+
+.intromain {
+  max-width: 531px;
+
+  margin-right: 9px;
+
+
+}
+
+.intromain__text {
+  h1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+
+    color: #99EFD0;
+
+    margin-bottom: 19px;
+
+    @media @tablet {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  
+  p {
+    font-family: Advent Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #8476AA;
+
+    margin-bottom: 40px;
+
+    @media @tablet {
+      color: #99EFD0;
+    }
+  }
+}
+
+.intromain__btn {
+  display: flex;
+
+  a {
+    text-decoration: none;
+
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+    
+    button {    
+      outline: none;
+      border: 1px solid #F2994A;
+      border-radius: 4px;
+      background: none;
+  
+      padding: 13px 31.5px;
+  
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 20px;
+  
+      letter-spacing: 2px;
+      text-transform: uppercase;
+
+      box-shadow: none;
+  
+      color: #F2994A;
+  
+      cursor: pointer;
+  
+      transition: background .2s linear, color .2s linear, box-shadow .2s linear;
+  
+      margin-bottom: 60px;
+
+      &:hover {
+        background: #F2994A;
+  
+        color: #FFFFFF;
+
+        box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+      }
+    }
+  }
+}
+
+.intromain__vid {
+  display: flex;
+  a {
+    margin-right: 20px;
+
+    transition: transform .2s linear;
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+  }
+
+  .intromain__vid--text {
+    p {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+  
+      color: #8476AA;
+
+      margin-bottom: 6px;
+
+      @media @tablet {
+        color: #99EFD0;
+      }
+    }
+
+    a {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+
+      color: #6D6D78;
+
+      text-decoration: none;
+
+      &:hover {
+        color: #F2994A;
+      }
+    }
+  }
+}

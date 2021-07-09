@@ -1,0 +1,120 @@
+// main: ../style.less
+
+.header {
+  margin-top: 79px;
+
+  margin-bottom: 130px;
+
+  @media @tablet {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    margin-right: -20px;
+  }
+}
+
+.headermain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headermain__left {
+  display: flex;
+
+  .headermain__left--logo {
+    margin-right: 44px;
+
+    @media @tablet {
+      margin-right: 20px;
+    }
+  }
+}
+
+.headermain__left--nav {
+  display: flex;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  li {
+    list-style-type: none;
+
+    font-family: Advent Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #B5B5B5;
+
+    &:hover {
+      color: #F2994A;
+    }
+  }
+}
+
+.headermain__btn {
+  align-items: center;
+  vertical-align: middle;
+
+  @media @tablet {
+    margin-left: 20px;
+  }
+  a {
+    text-decoration: none;
+
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  button {
+    outline: none;
+    border: 1px solid #F2994A;
+    border-radius: 4px;
+    background: none;
+
+    padding: 8px 28.5px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #F2994A;
+
+    cursor: pointer;
+
+    box-shadow: none;
+
+    transition: background .2s linear, color .2s linear, box-shadow .2s linear;
+
+    &:hover {
+      background: #F2994A;
+
+      color: #FFFFFF;
+
+      box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+    }
+  }
+}

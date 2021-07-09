@@ -1,0 +1,97 @@
+// main: ../style.less
+
+.helpmain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 170px;
+
+  @media @tablet {
+    margin-bottom: 100px;
+  }
+}
+
+.helpmain__right {
+  margin-left: 84px;
+
+  .helpmain__right--text {
+    h2 {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 32px;
+      letter-spacing: 0.325px;
+
+      color: #99EFD0;
+
+      margin-bottom: 32px;
+    }
+
+    p {
+      font-family: Advent Pro;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+
+      color: #8476AA;
+
+      margin-bottom: 48px;
+
+    }
+
+    @media @tablet {
+      margin-left: -80px;
+    }
+  }
+
+  .helpmain__right--feature {
+    display: flex;
+    justify-content: space-between;
+
+    @media @tablet {
+      margin-left: -80px;
+    }
+
+    .helpmain__right--featurecol {
+      max-width: 224px;
+
+      @media @tablet {
+        margin-right: 10px;
+      }
+
+      img {
+        margin-bottom: 16px;
+      }
+
+      .helpmain__right--featurecoltext {
+
+        h4 {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 18px;
+          letter-spacing: 0.2px;
+  
+          color: #99EFD0;
+
+          margin-bottom: 8px;
+        }
+        p {
+          font-family: Advent Pro;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 20px;
+          letter-spacing: 0.2px;
+
+          color: #8476AA;
+        }
+      }
+    }
+  }
+}

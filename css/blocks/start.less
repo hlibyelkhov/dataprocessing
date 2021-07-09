@@ -1,0 +1,68 @@
+// main: ../style.less
+
+.start {
+  text-align: center;
+
+  margin-bottom: 370px;
+
+  @media @tablet {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 100px;
+  }
+}
+
+.start__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 50px;
+  
+  color: #99EFD0;
+
+  span {
+    color: #F2994A;
+  }
+
+  margin-bottom: 46px;
+} 
+
+.start__btn {
+    text-decoration: none;
+    
+    button {    
+      outline: none;
+      border: 1px solid #F2994A;
+      border-radius: 4px;
+      background: none;
+  
+      padding: 13px 31.5px;
+  
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 20px;
+  
+      letter-spacing: 2px;
+      text-transform: uppercase;
+
+      box-shadow: none;
+  
+      color: #F2994A;
+  
+      cursor: pointer;
+  
+      transition: background .2s linear, color .2s linear, box-shadow .2s linear;
+
+      &:hover {
+        background: #F2994A;
+  
+        color: #FFFFFF;
+
+        box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+      }
+    }
+}

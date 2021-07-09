@@ -1,0 +1,36 @@
+// main: ../style.less
+
+.partnerslogo{
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+  max-width: 974px;
+
+  margin-bottom: 101.5px;
+
+  @media @tablet {  
+    margin-bottom: 50px;
+  }
+  
+  a {
+    text-decoration: none;
+
+    transition: transform .2s linear;
+
+    @media @tablet {  
+      margin-right: 10px;
+    }
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+    img {
+      opacity: 0.1;
+
+      @media @tablet {  
+        opacity: 0.5;
+      }
+    }
+  }
+}

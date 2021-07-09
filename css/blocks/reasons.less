@@ -1,0 +1,112 @@
+// main: ../style.less
+
+.reasonsmain {
+  text-align: center;
+
+  margin-bottom: 130px;
+
+  @media @tablet {
+    margin-bottom: 50px;
+  }
+}
+
+.reasonsmain__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reasonsmain__title {
+  margin-bottom: 50px;
+
+  @media @tablet {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+
+    color: #99EFD0;
+
+    margin-bottom: 13px;
+
+    @media @tablet {
+      font-size: 32px;
+
+      margin-bottom: 7px;
+    }
+  }
+
+  p {
+    font-family: Advent Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #8476AA;
+  }
+}
+
+.reasonsmain__content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.reasonsmain__contentcol {
+  max-width: 299px;
+  width: 33.3%;
+
+  display: flex;
+
+  margin-bottom: 38px;
+
+  .reasonsmain__contentcol--logo {
+    margin-right: 28px;
+
+    @media @tablet {
+      margin-right: 10px;
+    }
+  }
+
+
+  .reasonsmain__contentcol--text {
+    text-align: left;
+
+    h4 {
+      font-family: Advent Pro;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+  
+      color: #99EFD0;
+
+      margin-bottom: 10px;
+
+      @media @mobile {
+        font-size: 14px;
+
+        margin-bottom: 5px;
+      }
+    }
+
+    p {
+      font-family: Advent Pro;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+
+      color: #8476AA;
+
+      @media @mobile {
+        font-size: 10px;
+      }
+    }
+  }
+  
+}
